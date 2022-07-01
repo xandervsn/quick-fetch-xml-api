@@ -14,7 +14,7 @@ function findDuration(artist, track){
             secs = duration/1000
             seconds = secs%60
             minutes = (secs-seconds)/60
-            console.log(minutes + ":" + seconds)
+            document.getElementById('output').innerHTML = minutes + ":" + seconds
         })
 }
 
